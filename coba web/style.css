@@ -1,0 +1,71 @@
+/* Mengatur font dan background dasar */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffe5ec; /* Warna pink pastel lembut */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(255, 182, 193, 0.5);
+    max-width: 90%;
+    width: 400px;
+}
+
+.gif-container img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ff4d6d;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+/* Mengatur tombol */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Supaya kalau tombol MAU membesar, tombol ENGGA turun ke bawah */
+    min-height: 150px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#btn-mau {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#btn-mau:hover {
+    background-color: #ff758f;
+    transform: scale(1.05);
+}
+
+#btn-engga {
+    background-color: #6c757d;
+    color: white;
+}
